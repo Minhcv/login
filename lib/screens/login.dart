@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
                     margin: const EdgeInsets.only(top: 50),
                     alignment: Alignment.center,
                     child: const Text(
-                      'Messenger',
+                      'Đăng nhập',
                       style: MyCustomTheme.textStyleTitle,
                     )),
                 Container(
@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                     margin: MyCustomTheme.marginTop,
                     height: 50,
-                    padding: const EdgeInsets.fromLTRB(100, 0, 100, 0),
+                    padding: const EdgeInsets.fromLTRB(50, 0, 50, 0),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: MyCustomTheme.buttonColorPink,

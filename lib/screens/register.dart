@@ -62,7 +62,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Container(
                     margin: MyCustomTheme.marginTop,
                     height: 50,
-                    padding: const EdgeInsets.fromLTRB(100, 0, 100, 0),
+                    padding: const EdgeInsets.fromLTRB(50, 0, 50, 0),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: MyCustomTheme.buttonColorPink,
